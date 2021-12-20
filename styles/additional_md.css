@@ -1,0 +1,125 @@
+@media (max-width: 1030px){
+    .nav{
+        display: none;
+    }
+    .full-search{
+        display: flex;
+        position: sticky;
+    }
+    .nav-bottom{
+        display: flex;
+    }
+
+    .gps-page{
+        display: none;
+    }
+
+    .calendar{
+        display: none;
+    }
+
+    .adults-page{
+        display: none;
+    }
+
+
+
+/* ------------ ADDITIONAL CSS ------------- */
+
+    .map{
+        display: none;
+    }
+    .move-page .pages .page .about .words p{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+    .move-page{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .move-page .pages{
+        width: 100%;
+        
+    }
+    .move-page .pages .page{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        
+    }
+    .move-page .pages .page:nth-child(10){
+        border: none;
+    }
+    .move-page .pages .page a{
+        width: 100%;
+    }
+    .move-page .pages .page .house{
+        width: 100%;
+    }
+    .move-page .pages .page .about{
+        width: 100%;
+        display: grid;
+        margin: 0;
+        justify-content: space-between;
+    }
+    .move-page .pages .page .about .words{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .move-page .pages .page .about .words h5{
+        margin-top: 10px;
+    }
+    .move-page .pages .page .about .words h4{
+        margin: 5px 0px;
+    }
+    .move-page .pages .page .about .prices{
+        align-items: flex-start;
+    }
+    .move-page .pages .page .about .prices img{
+        width: 25px;
+        position: absolute;
+        top: 32px;
+        right: 12px;
+    }
+
+
+
+
+
+    .footerA{
+        height: 2.5%;
+        z-index: 2;
+    }
+    .footerA .content{
+        height: 120px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .footerA .content .right{
+        width: 100%;
+        justify-content: center;
+    }
+    .footerA .content .right .usd{
+        width: 250px;
+        margin-right: 8px;
+    }
+    .footerA .content .right .icons{
+        width: 140px;
+        justify-content: space-around;
+        margin-left: 8px;
+    }
+    .footerA .content .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+}

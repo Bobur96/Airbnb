@@ -1,0 +1,114 @@
+@media  (max-width: 1000px) and (min-width: 600px){
+
+    .header .top{
+        flex-wrap: wrap-reverse;
+        margin-bottom: 50px;
+    }
+    .header .top h3{
+        display: none;
+    }
+    .header .top .medium{
+        position: absolute;
+        justify-content: center;
+        top: 100%;
+        left: 22%;
+    }
+    .header .center .container{
+        width: 85%;
+    }
+    .header .content h1{
+        font-size: 48pt;
+    }
+
+    .live .banners{
+        flex-wrap: wrap;
+    }
+    .live .banners .banner{
+        margin: 12px 0px;
+        width: 48%;
+        height: 45%;
+    }
+
+    .experience .banner:nth-child(3){
+        display: none;
+    }
+    .experience .banner{
+        width: 48%;
+    }
+    .experience h5{
+        font-size: 8.6pt;
+    }
+
+    .join .banner:nth-child(3){
+        display: none;
+    }
+    .join .banner{
+        width: 48%;
+    }
+    .join h2{
+        font-size: 18pt;
+    }
+
+    .footer{
+        height: 18%;
+    }
+    .footer .content{
+        height: 120px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .footer .content .right{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer .content .right .usd{
+        width: 250px;
+        margin-right: 8px;
+    }
+    .footer .content .right .icons{
+        width: 140px;
+        justify-content: space-around;
+        margin-left: 8px;
+    }
+    .footer .content .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        margin-top: -15px;
+        margin-bottom: 5px;
+    }
+
+    /* ///////////////////////////////////// */
+
+    .nav h3{
+        display: none;
+    }
+    .nav .medium{
+        margin-left: -30%;
+    }
+
+    .gps-page{
+        top: 75px;
+        width: 47%;
+    }
+
+    .calendar{
+        top: 75px;
+    }
+    .one-cal .month .next{
+        display: block;
+    }
+    .calendar .two-cal{
+        display: none;
+    }
+    .weekdays li, .days li {
+        width: 12.1%;
+    }
+
+    .adults-page{
+        top: 75px;
+        width: 40%;
+        left: 52.5%;
+    }
+}

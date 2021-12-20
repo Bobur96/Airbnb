@@ -1,0 +1,1 @@
+asosiySahifa(wrapper, asosiySahifaFuncs)

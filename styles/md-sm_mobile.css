@@ -1,0 +1,62 @@
+@media (max-width: 750px){
+
+    .header .top{
+        display: none;
+    }
+    .header .center {
+        display: none;
+    }
+    .header .content{
+        padding: 70px 0px 0px 25px;
+        height: 72%;
+    }
+
+    .gift .page{
+        padding: 30px 15px;
+    }
+    .gift .page .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .gift .page h1{
+        font-size: 19pt;
+        text-align: center;
+    }
+    .gift .page p{
+        font-size: 14pt;
+        text-align: center;
+    }
+    .gift .page button{
+        margin: 0;
+        width: 110px;
+        height: 35px;
+    }
+
+    /* ///////////////////////////////////// */
+
+    .nav{
+        display: none;
+    }
+    .full-search{
+        display: flex;
+        position: fixed;
+    }
+    .nav-bottom{
+        display: flex;
+    }
+
+    .gps-page{
+        display: none;
+    }
+
+    .calendar{
+        display: none;
+    }
+
+    .adults-page{
+        display: none;
+    }
+
+}
